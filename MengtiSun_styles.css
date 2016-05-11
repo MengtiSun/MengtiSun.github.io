@@ -1,0 +1,93 @@
+body {
+    background-color: #9966ff;
+    position: relative;
+}
+
+.nav li {
+    float: left;
+    padding-top: 14px;
+    margin-left: 20px;
+    color: #EFEFEF;
+}
+
+.nav li:hover {
+    color: white;
+    padding-top: 11px;
+    border-top: 3px solid white;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    cursor: auto;
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    top: 39%;
+    left: 11%;
+}
+
+#my_logo {
+    width: 750px;
+    height: 150px;
+}
+
+#s, #u, #n, #rabbit_face, #rabbit_mouse {
+    stroke: white;
+    stroke-width: 40;
+    fill: #9966ff;
+}
+
+#rabbit_eyes {
+    stroke: white;
+    stroke-width: 40;
+    fill: white;
+}
+
+#s, #u, #n {
+    stroke-dasharray: 5300;
+    -webkit-animation: s-stroke 3s ease-in-out;
+    animation: s-stroke 3s ease-in-out;
+}
+
+#rabbit_face {
+    stroke-dasharray: 2000;
+    -webkit-animation: rabbit-face-stroke 1s ease-in-out 3s;
+    animation: rabbit-face-stroke 1s ease-in-out 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#rabbit_eyes, #rabbit_mouse {
+    stroke-dasharray: 1609, 1611;
+    -webkit-animation: rabbit-eye-stroke 1s ease-in-out 4s;
+    animation: rabbit-eye-stroke 1s ease-in-out 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes s-stroke{
+    0%{stroke-dashoffset:5300}
+    100%{stroke-dashoffset:0}
+}
+
+@-webkit-keyframes rabbit-face-stroke{
+    0%{stroke-dashoffset:2000;}
+    100%{stroke-dashoffset:0;}
+}
+
+@-webkit-keyframes rabbit-eye-stroke{
+    0%{stroke-dashoffset:1609;visibility:hidden}
+    100%{stroke-dashoffset:0;visibility:visible}
+}
+
+
+
+
+
+
+
