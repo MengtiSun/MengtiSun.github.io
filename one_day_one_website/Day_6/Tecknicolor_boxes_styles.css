@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.wrapper {
+    background: gray;
+    width: 900px;
+    height: 1800px;
+    margin: auto;
+}
+
+.wrapper div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    /*background: red;*/
+}
+
+
+
+

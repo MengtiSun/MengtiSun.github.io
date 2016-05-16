@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Arial;
+    font-size: 25px;
+    color: gray;
+    width: 400px;
+    margin: 100px auto;
+}
+
+p span {
+    color: black;
+
+}
+
+

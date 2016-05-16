@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6ec;
+}
+
+.wrapper {
+    margin: 60px 100px 0 100px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+h1 p {
+    padding: 30px 0;
+    height: 40px;
+}
+
+form {
+    margin: 160px 100px;
+    text-align: center;
+}
+
+#habbit {
+    width: 350px;
+    height: 35px;
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding-left: 5px;
+    outline: none;
+}
+
+#btn {
+    width: 100px;
+    height: 38px;
+    font-size: 18px;
+    background-color: #d11250;
+    color: #f6f6ec;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+

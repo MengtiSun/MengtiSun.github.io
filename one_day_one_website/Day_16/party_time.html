@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="party_time_styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="party_time_script.js"></script>
+    <title>Party time?</title>
+</head>
+<body>
+<h1>Time to Party?</h1>
+<div class="wrapper">
+    <h2>Enter a birthdate and time to see if it's party time</h2>
+    <form>
+        Birthdate:<input id="birth" type="date" placeholder="dd/mm/yyyy">
+        Time: <input id="time" type="time" placeholder="--:-- --">
+        <input id="submit_form" type="submit" value="Party?">
+    </form>
+
+</div>
+<div class="info">
+    <div class="birth_info">
+        <p id="birthday"></p>
+        <p id="birth_year"></p>
+        <p id="birth_day"></p>
+        <p id="birth_minute">You're </p>
+    </div>
+    <div class="birth_info">
+        <p id="next_birth">Your 10,000th day is </p>
+    </div>
+</div>
+<div class="home">
+    <a href="../Day_0/home.html">
+        <input class="go_home" type="button" value="Home">
+    </a>
+</div>
+</body>
+</html>

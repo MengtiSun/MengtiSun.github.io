@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stopwatch.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="stopwatch.js"></script>
+    <title>Stopwatch</title>
+</head>
+<body>
+<div class="stopwatch">Stopwatch</div>
+<div>
+    <div class="hour">
+        <div class="first hour_first">
+            <div class="top bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="middle bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="bottom bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="top_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="top_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+        </div>
+        <div class="second  hour_second">
+            <div class="top bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="middle bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="bottom bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="top_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="top_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="dot1">
+        <div class="dot11 dot"></div>
+        <div class="dot12 dot"></div>
+    </div>
+    <div class="minute">
+        <div class="first minute_first">
+            <div class="top bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="middle bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="bottom bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="top_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="top_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+        </div>
+        <div class="second minute_second">
+            <div class="top bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="middle bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="bottom bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="top_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="top_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="dot2">
+        <div class="dot11 dot"></div>
+        <div class="dot12 dot"></div>
+    </div>
+    <div class="seconds">
+        <div class="first seconds_first">
+            <div class="top bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="middle bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="bottom bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="top_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="top_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+        </div>
+        <div class="second  seconds_second">
+            <div class="top bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="middle bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="bottom bar1">
+                <div class="left1 bar"></div>
+                <div class="mid1 bar"></div>
+                <div class="right1 bar"></div>
+            </div>
+            <div class="top_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_left bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="top_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+            <div class="bottom_right bar2">
+                <div class="left2 bar"></div>
+                <div class="mid2 bar"></div>
+                <div class="right2 bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn">
+        <input class="button" id="start" type="button" value="Start">
+        <input class="button" id="stop" type="button" value="Stop">
+        <input class="button" id="reset" type="button" value="Reset">
+    </div>
+
+</div>
+
+<div class="home">
+    <a href="../Day_0/home.html">HOME</a>
+</div>
+</body>
+</html>

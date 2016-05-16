@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBody {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+.discription {
+    width: 260px;
+    float: left;
+    margin: 30px 20px;
+}
+
+.discription h1, #sentence h1 {
+    font-weight: normal;
+    line-height: 1.05em;
+    letter-spacing: 0.08em;
+}
+
+.discription p, #sentence p {
+    font-size: 23px;
+    margin-top: 20px;
+    line-height: 1.05em;
+    letter-spacing: 0.08em;
+}
+
+#ball {
+    border: 60px solid #329999;
+    width: 0px;
+    height: 0px;
+    border-radius: 60px;
+    position: absolute;
+    top:0;
+    left: 500px;
+    cursor: pointer;
+}
+
+#sentence {
+    height: 140px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 410px;
+    display: none;
+}
+
+#sentence h1, #sentence p {
+    text-align: center;
+    font-weight: normal;
+}
+
+.floor {
+    height: 50px;
+    position: absolute;
+    top: 651px;
+    left: 0;
+    width: 900px;
+    background: #329999;
+}
+
+
+
+
+
+
+
+
+
+
+
+

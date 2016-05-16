@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+#game {
+    width: 920px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#left {
+    float: left;
+}
+
+h1 {
+    color: #d11250;
+    width: 350px;
+    border-bottom: 1px solid #00ACE9;
+    font-size: 23px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-bottom: 13px;
+}
+
+#left div, #right div {
+    width: 350px;
+    text-align: center;
+}
+
+img {
+    padding-top: 100px;
+    margin: auto;
+}
+
+
+#middle {
+    color: #008f68;
+    font-size: 32px;
+    width: 200px;
+    margin-top: 160px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    float: left;
+}
+
+#right {
+    float: left;
+}
+
+#choice {
+    clear: both;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 740px;
+}
+
+input {
+    font-size: 18px;
+    background-color: #00ACE9;
+    color: #1d113b;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 4px;
+    margin-top: 100px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    outline: none;
+}
+
+.shake {
+    animation: shake 1.5s;
+    -webkit-animation: shake 1.5s;
+    -o-animation: shake 1.5s;
+}
+
+@-webkit-keyframes shake {
+    0% {-webkit-transform: translateY(0);}
+    12.5%, 37.5%, 62.5%, 87.5% {-webkit-transform: translateY(-20px)}
+    25%, 50%, 75%, 100% {-webkit-transform: translateY(20px)}
+}
+
+
+
+
+
+
+
+
+
+
+

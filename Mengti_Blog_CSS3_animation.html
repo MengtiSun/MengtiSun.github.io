@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/Mengti_Blog_styles.css">
+    <script src="js/Mengti_Blog_script.js"></script>
+    <title>CSS3 Animation Framework</title>
+</head>
+<body>
+<div class="rotLeft"></div>
+<div class="rotRight"></div>
+<div class="wrapper">
+    <div class="header_part">
+        <div class="mengti_link">
+            <a href="index.html" target="_blank">Personal Website</a>
+            |
+            <a href="Mengti_Blog.html" target="_blank">Blog</a>
+        </div>
+        <div class="name">CSS3 Animation Framework</div>
+    </div>
+    <div class="main_part">
+        <div class="label">
+            Labels:
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>CSS3</span>
+        </div>
+        <div class="part">
+            <h1>CSS3 Animation Basic Framework</h1>
+            <div class="HTML_example">
+                <div class="box_header">The example code of basic framework</div>
+                <div class="CSS_code">
+                    <div class="level0">.className {</div>
+                        <div class="level1">-webkit-animation: className 4s;</div>
+                        <div class="level1">-o-animation: className 4s;</div>
+                        <div class="level1">animation: className 4s;</div>
+                    <div class="level0">}</div>
+                    <div class="level0">@-webkit-keyframes className {</div>
+                        <br>
+                    <div class="level0">}</div>
+                </div>
+            </div>
+        </div>
+        <div class="part">
+            <h1>Inside Keyframes</h1>
+            <div class="HTML_example">
+                <div class="box_header">The example code of animation code</div>
+                <div class="CSS_code">
+                    <div class="level0">@-webkit-keyframes className {</div>
+                        <div class="level1">n%,m% {</div>
+                            <div class="level2">attribute: value;</div>
+                            <div class="level2">-webkit-transform: translateX(-20px) translateY(-20px)</div>
+                                <div class="level3">rotate(-20deg) scale(2.5,3.5);</div>
+                                <div class="level2">-webkit-animation-timing-function: ease-out;</div>
+                                <div class="level2">-webkit-animation-fill-mode:forwards;</div>
+                        <div class="level1">}</div>
+                    <div class="level0">}</div>
+                </div>
+            </div>
+        </div>
+        <div class="part">
+            <h1>Problem to Notice</h1>
+            <p>While changing 'height', add 'vertical-align: top' when necessary.</p>
+            <p>Putting 'rotate' and 'scale' together may have some unexpected effects.</p>
+        </div>
+        <div class="footer_part">
+            <div class="comments_title">Comments</div>
+            <textarea class="comments"></textarea>
+        </div>
+        <div class="hack"></div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>

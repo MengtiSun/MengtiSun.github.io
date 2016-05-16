@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f6f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.week {
+    width: 700px;
+    margin: auto;
+}
+
+.week div {
+    height: 35px;
+    width: 90px;
+    float: left;
+    background: #F1C40F;
+    color: #f39c12;
+    font-size: 22px;
+    padding: 65px 0 0 10px;
+}
+
+.day {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 97px;
+    height: 300px;
+    background: #16A085;
+    border-left: 3px solid gray;
+}
+
+.day p {
+    margin-top: 240px;
+    margin-left: 12px;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 3px black;
+    font-weight: bold;
+}
+
+.create_margin {
+    height: 100px;
+}
+
+.today {
+    background: #16A085;
+    margin-top: 200px;
+    height: 140px;
+    border-bottom: 3px solid gray;
+}
+
+.today p {
+    color: white;
+    margin-left: 460px;
+    padding-top: 50px;
+    font-size: 40px;
+    text-shadow: -2px 3px black;
+}
+
+
+

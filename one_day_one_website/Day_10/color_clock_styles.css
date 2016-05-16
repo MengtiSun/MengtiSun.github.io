@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: gray;
+}
+
+.clock, .color_clock {
+    width: 570px;
+    margin: 60px auto 230px auto;
+
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 38px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper div {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-size: 120px;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    letter-spacing: 0;
+}
+
+.off_time {
+    opacity: 0.1;
+    filter:alpha(opacity:10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

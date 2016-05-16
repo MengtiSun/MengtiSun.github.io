@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.home {
+    position: absolute;
+    top: 95%;
+    left: 2%;
+}
+
+.go_home {
+    height: 25px;
+    width: 60px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.caterpillar {
+    border-radius: 50%;
+    position: absolute;
+    /*top: 0;*/
+    /*left: 0;*/
+    box-shadow: 0 0 3px white;
+}

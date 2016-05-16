@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #CCCCCC;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 38px;
+    text-shadow: -1px -1px 0 white, 1px 1px 0 rgba(0,0,0,0.5);
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture {
+    width: 930px;
+    height: 580px;
+    background: #ffffe0;
+    margin: auto;
+    box-shadow: 0 0 7px rgba(0,0,0,0.8);
+}
+
+.color_picker {
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.color_picker div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#white {
+    background-color: white;
+}
+
+/*canvas部分*/
+.canvas {
+    width: 700px;
+    height: 496px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.row1 {
+    height: 100px;
+    border-bottom: 10px solid black;
+    background-color: white;
+}
+
+.row2 {
+    height: 170px;
+    border-bottom: 10px solid black;
+    background-color: white;
+}
+
+.row3 {
+    height: 80px;
+    border-bottom: 10px solid black;
+    background-color: white;
+}
+
+.row4 {
+    background-color: white;
+    height: 116px;
+}
+
+.canvas div div {
+    float: left;
+}
+
+.cell1 {
+    width: 130px;
+    border-right: 10px solid black;
+    height: inherit;
+}
+
+.cell2 {
+    width: 300px;
+    border-right: 10px solid black;
+    height: inherit;
+}
+
+.cell3 {
+    width: 90px;
+    border-right: 10px solid black;
+    height: inherit;
+}
+
+.cell4 {
+    width: 150px;
+    height: inherit;
+}
+
+
+
+
+

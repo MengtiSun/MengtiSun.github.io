@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    width: 500px;
+    height: 333px;
+    margin: 60px auto;
+    box-shadow: 0 0 0 0 rgba(0, 1, 0, 0.34902);
+    cursor: pointer;
+}
+
+.proverb {
+    margin: 70px auto;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 0 0 gray;
+    cursor: pointer;
+    user-select: none;
+}
+
+.proverb p {
+    text-align: center;
+    font-family: Arial;
+    text-shadow: 0 0 0 black;
+    user-select: none;
+}
+
+#sentence {
+    font-size: 33px;
+    user-select: none;
+}
+
+#name {
+    margin-top: 13px;
+    font-size: 18px;
+    user-select: none;
+}
+
+

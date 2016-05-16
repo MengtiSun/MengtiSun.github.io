@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+
+.stopwatch {
+    color: aquamarine;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    padding: 10px 20px;
+}
+
+.hour {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.minute {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+
+.seconds {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.first {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.top {
+    position: absolute;
+    width: 70px;
+    top: 0;
+    left: 9px;
+}
+
+.middle {
+    clear: both;
+    width: 70px;
+    position: absolute;
+    top: 58px;
+    left: 9px;
+    display: none;
+}
+
+.bottom {
+    clear: both;
+    width: 70px;
+    position: absolute;
+    top: 117px;
+    left: 9px;
+}
+
+.top_left {
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+
+.bottom_left {
+    position: absolute;
+    top: 67px;
+    left: 0;
+}
+
+.top_right {
+    position: absolute;
+    top: 9px;
+    left: 58px;
+}
+
+.bottom_right {
+    position: absolute;
+    top: 67px;
+    left: 58px;
+}
+
+
+.bar {
+    background-color:  #9db5f4;
+}
+
+.left1 {
+    float: left;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-right: 7px solid #9db5f4;
+    /*border-left: 7px solid transparent;*/
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+
+.mid1 {
+    float: left;
+    width: 40px;
+    height: 14px;
+    /*box-shadow: 0 0 4px white;*/
+}
+
+.right1 {
+    float: left;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 7px solid #9db5f4;
+    /*border-left: 7px solid transparent;*/
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+
+.left2 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-bottom: 7px solid #9db5f4;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.mid2 {
+    width: 14px;
+    height: 40px;
+    /*box-shadow: 0 0 4px white;*/
+}
+
+.right2 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-top: 7px solid #9db5f4;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+
+
+.dot1 {
+    position: absolute;
+    top: 250px;
+    left: 504px;
+}
+
+.dot2 {
+    position: absolute;
+    top: 250px;
+    left: 753px;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    background-color: #9db5f4;
+}
+
+.dot11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dot12 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+
+.btn {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    background-color: #b0b5c2;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    outline: none;
+}
+
+
+
+
+
+.home {
+    position: absolute;
+    top: 95%;
+    left: 2%;
+}
+
+.home a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+
