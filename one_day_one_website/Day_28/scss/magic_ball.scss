@@ -1,0 +1,152 @@
+$clr-background: #a5a4ab;
+$clr-heading: #8C8B92;
+$clr-hover: #D9D8DF;
+$clr-ball-left: rgba(255,255,255,0.05);
+$clr-ball-right: black;
+$clr-text: #D8D7DE;
+$clr-btn: #110bc1;
+$clr-content: white;
+
+$clr-shadow: 0px 0px 1px white;
+
+@mixin backgroundGradient ($posX: 40px, $posY: 40px, $start: 10%, $end: 70%) {
+  background: -webkit-radial-gradient(farthest-corner at $posX $posY, $clr-ball-left $start, $clr-ball-right $end);
+  background: -moz-radial-gradient(farthest-corner at $posX $posY, $clr-ball-left $start, $clr-ball-right $end);
+  background: -o-radial-gradient(farthest-corner at $posX $posY, $clr-ball-left $start, $clr-ball-right $end);
+  background: -ms-radial-gradient(farthest-corner at $posX $posY, $clr-ball-left $start, $clr-ball-right $end);
+  background: radial-gradient(farthest-corner at $posX $posY, $clr-ball-left $start, $clr-ball-right $end);
+}
+
+
+
+
+body {
+  background-color: $clr-background;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.title {
+  color: $clr-heading;
+  float: left;
+  font-size: 26px;
+  font-weight: bolder;
+  text-shadow: $clr-shadow;
+  margin: 10px 15px 50px 15px;
+}
+
+.home {
+  color: $clr-heading;
+  float: right;
+  margin: 15px 20px;
+  a {
+    color: $clr-heading;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: $clr-shadow;
+    &:hover {
+      color: $clr-hover;
+    }
+  }
+}
+
+.main {
+  clear: both;
+}
+
+.ball {
+  position: relative;
+  margin: 100px auto 0 auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  //box-shadow: inset -50px -50px 40px rgba(0,0,0,0.5);
+  @include backgroundGradient ();
+  z-index: -100;
+}
+
+.container {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  width: 220px;
+  height: 220px;
+  box-sizing: border-box;
+  border: 10px solid $clr-ball-right;
+  //background-color: black;
+  box-shadow: inset 0 0 150px $clr-ball-right;
+  border-radius: 50%;
+  .content {
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 120px;
+    padding-left: 60px;
+    padding-top: 30px;
+    border-radius: 50%;
+    width: 198px;
+    height: 198px;
+    background-color: $clr-content;
+  }
+  .answer {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $clr-ball-right;
+
+    z-index: -99;
+    .answer_outer {
+      //display: none;
+      position: absolute;
+      top: 50px;
+      left: 5px;
+      border-left: 96px solid transparent;
+      border-right: 96px solid transparent;
+      border-top: 160px solid $clr-btn;
+    }
+    .answer_content {
+      //display: none;
+      position: absolute;
+      box-sizing: border-box;
+      padding-top: 20px;
+      top: 50px;
+      left: 48px;
+      width: 104px;
+      color: $clr-content;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.3em;
+      font-family: "Arial";
+      z-index: 100;
+    }
+  }
+}
+
+
+.question {
+  width: 600px;
+  margin: 50px auto;
+  .text1 {
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    background-color: $clr-text;
+    outline: none;
+  }
+  .btn1 {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    color: $clr-text;
+    background-color: $clr-btn;
+    outline: none;
+  }
+}
+
+
+
+
+
+
+

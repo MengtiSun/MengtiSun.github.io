@@ -1,0 +1,148 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Avenir", Futura, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+
+.head {
+    height: 50px;
+    border-bottom: 5px solid #009786;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.scrambled {
+    float: left;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    float: right;
+    font-size: 18px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*display: none;*/
+    text-align: center;
+    padding-top: 20px;
+    background-color: #d2fffa;
+    height: 100%;
+}
+
+.main p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.btn {
+    width: 220px;
+    height: 66px;
+    background-color: #009786;
+    margin-top: 90px;
+    color: white;
+    font-size: 23px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game {
+    display: none;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #d2fffa;
+    height: 100%;
+    position: relative;
+}
+
+.game p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.answer {
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+
+.game_container {
+    margin: 120px auto 0 auto;
+    width: 700px;
+}
+
+.score {
+    float: right;
+    background-color: #cc0018;
+    color: white;
+    font-size: 20px;
+    padding: 8px 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.word {
+    float: right;
+    background-color: #cc0018;
+    color: white;
+    font-size: 28px;
+    padding: 30px 290px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.guess_container {
+    clear: both;
+    padding-top: 100px;
+}
+
+.guess {
+    width: 590px;
+    height: 45px;
+    border: none;
+    font-size: 23px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.submit {
+    width: 100px;
+    height: 47px;
+    background-color: #009786;
+    color: white;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+    vertical-align: 3px;
+    font-size: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

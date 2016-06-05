@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="scrambled.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="scrambled.js"></script>
+    <!--[if IE]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Scrambled</title>
+</head>
+<body>
+
+<div class="head">
+    <a class="scrambled" href="scrambled.html">SCRAMBLED!</a>
+    <a class="home" href="../Day_0/home.html">Home</a>
+</div>
+
+<div class="main">
+    <p>You have three chances to unscramble the word.</p>
+    <p>If you succeed, you get a point.</p>
+    <p>If you fail, you lose a point.</p>
+    <input class="btn" type="button" value="Let's Play!">
+</div>
+
+<div class="game">
+    <p class="info">Here's your first word. Good Luck!</p>
+    <p class="answer"></p>
+    <div class="game_container">
+        <div class="score">Score: 0</div>
+        <br>
+        <div class="word">UTELPAO</div>
+    </div>
+    <div class="guess_container">
+        <input class="guess" type="text" placeholder="Enter your guess">
+        <input class="submit" type="submit" value="Submit">
+    </div>
+
+</div>
+
+
+</body>
+</html>
